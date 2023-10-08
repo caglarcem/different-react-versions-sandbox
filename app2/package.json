@@ -20,7 +20,9 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "source-map-loader": "^4.0.1"
   }
 }

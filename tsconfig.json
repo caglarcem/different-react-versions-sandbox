@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    // Skip library check, can speed up builds
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "ESNext", // allow dynamic module load
+    "target": "ES2021",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // Don't emit anything
+    "noEmit": true,
+    // Do incremental builds
+    "incremental": true
+  }
+}

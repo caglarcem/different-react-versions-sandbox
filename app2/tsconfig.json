@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+
+  // Optimize the includes/excludes
+  // https://github.com/microsoft/TypeScript/wiki/Performance#misconfigured-include-and-exclude
+  "include": ["src"],
+  "exclude": [
+    // Exclude all node_modules
+    "**/node_modules",
+    // Exclude hidden files (namely `.git`, which can be pretty big)
+    "**/.*/"
+  ]
+}

@@ -1,3 +1,5 @@
+Forked from Code Sandbox and converted to typescript https://codesandbox.io/s/jovial-euler-rxzwfv
+
 # Mixed React Versions and Compatibility levels
 
 This example demos the ability to load two separate versions of react.

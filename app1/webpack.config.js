@@ -29,6 +29,8 @@ module.exports = {
           presets: ["@babel/preset-react"],
         },
       },
+      { test: /\.js$/, loader: "source-map-loader" },
+      { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
     ],
   },
   plugins: [
